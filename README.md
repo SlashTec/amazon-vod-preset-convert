@@ -1,19 +1,19 @@
-﻿
+﻿you can run this inside cloudshell , converted to work with python3 by yousef using mistral ai 
 ## Amazon VOD Preset Converter
 
 Python script that allows users to convert Amazon Elastic Transcoder presets to AWS Elemental MediaConvert presets.
 
 ###  Setting up Environment 
-You will need to install Python 2.7 onto the machine where you are running the script
+You will need to install Python 3 onto the machine where you are running the script
 
 #### Verify Python is Installed
 
 Python may be installed by default on your machine, or you may have used it in a previous workflow.
 To verify if Python is installed and what version you have, run the following command:
 ```
-python –version
+python3 –version
 ```
-Please make sure that the Python version is a variation of **2.7.x**. 
+now works with python 3 . 
 
 #### Installing AWS CLI
 
@@ -40,7 +40,7 @@ chmod +x ets_mediaconvert_preset_v2.py
 Running the script will provide the following help menu. You can also use the ‘-h’ parameter to show the help menu.
 
 ```
-$ python ets_mediaconvert_preset_v2.py
+$ python3 ets_mediaconvert_preset_v2.py
 usage: ets_mediaconvert_preset_v2.py [-h] [-r REGION] [-p ETSID] [-v] [-i] [-c OUTPUTTYPE] [-f]
 ETS to AWS Elemental MediaConvert preset converter
 
